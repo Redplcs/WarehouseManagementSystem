@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Warehouse.Application/Warehouse.Application.csproj" />
+    <Project Path="src/Warehouse.Domain/Warehouse.Domain.csproj" />
+    <Project Path="src/Warehouse.Infrastructure/Warehouse.Infrastructure.csproj" />
+    <Project Path="src/Warehouse.WebApi/Warehouse.WebApi.csproj" />
+  </Folder>
+</Solution>
