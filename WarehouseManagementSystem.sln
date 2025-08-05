@@ -15,6 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse.Infrastructure", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse.Shared", "src\Warehouse.Shared\Warehouse.Shared.csproj", "{987DC89E-1CC6-4593-92FC-F006B3944B00}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Packages.props = src\Directory.Packages.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,5 +100,8 @@ Global
 		{FCA97867-9D49-492F-8CBD-C4A093F1B4D2} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{EF259F38-C076-4F16-8CCD-D957EA038380} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{987DC89E-1CC6-4593-92FC-F006B3944B00} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37BADA13-F488-4435-AE01-A697FA4552EF}
 	EndGlobalSection
 EndGlobal
