@@ -1,4 +1,4 @@
-﻿namespace Warehouse.Domain.Entities;
+﻿namespace Warehouse.Domain.ValueObjects;
 
 public enum RecordState
 {
