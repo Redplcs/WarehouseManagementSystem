@@ -2,7 +2,7 @@
 
 namespace Warehouse.Domain.Entities;
 
-public sealed class ShipmentResource : Entity
+public sealed class ShipmentResource : Entity<ShipmentResource>
 {
     public required ShipmentDocument Document { get; set; }
     public required Resource Resource { get; set; }

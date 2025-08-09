@@ -2,7 +2,7 @@
 
 namespace Warehouse.Domain.Entities;
 
-public sealed class ReceiptResource : Entity
+public sealed class ReceiptResource : Entity<ReceiptResource>
 {
     public required ReceiptDocument Document { get; set; }
     public required Resource Resource { get; set; }

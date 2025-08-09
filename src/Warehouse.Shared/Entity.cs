@@ -1,17 +1,18 @@
 ﻿namespace Warehouse.Shared;
 
-public abstract class Entity : IEquatable<Entity>
+public abstract class Entity<TSelf> : IEquatable<Entity<TSelf>>
+    where TSelf : Entity<TSelf>
 {
-    public Guid Id { get; init; }
+    public Id<TSelf> Id { get; init; }
 
-    public bool Equals(Entity? other)
+    public bool Equals(Entity<TSelf>? other)
     {
-        return other is not null && Id == other.Id;
+        return Id == other?.Id;
     }
 
     public override bool Equals(object? obj)
     {
-        return obj is Entity entity && Equals(entity);
+        return obj is Entity<TSelf> other && Equals(other);
     }
 
     public override int GetHashCode()
@@ -19,12 +20,12 @@ public abstract class Entity : IEquatable<Entity>
         return Id.GetHashCode();
     }
 
-    public static bool operator ==(Entity? left, Entity? right)
+    public static bool operator ==(Entity<TSelf>? left, Entity<TSelf>? right)
     {
         return Equals(left, right);
     }
 
-    public static bool operator !=(Entity? left, Entity? right)
+    public static bool operator !=(Entity<TSelf>? left, Entity<TSelf>? right)
     {
         return !Equals(left, right);
     }

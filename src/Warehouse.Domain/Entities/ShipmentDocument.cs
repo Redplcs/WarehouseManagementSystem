@@ -3,7 +3,7 @@ using Warehouse.Shared;
 
 namespace Warehouse.Domain.Entities;
 
-public sealed class ShipmentDocument : Entity
+public sealed class ShipmentDocument : Entity<ShipmentDocument>
 {
     public required Customer Customer { get; set; }
 

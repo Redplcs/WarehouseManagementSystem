@@ -2,7 +2,7 @@
 
 namespace Warehouse.Domain.Entities;
 
-public sealed class Balance : Entity
+public sealed class Balance : Entity<Balance>
 {
     public required Resource Resource { get; set; }
     public required MeasurementUnit MeasurementUnit { get; set; }
