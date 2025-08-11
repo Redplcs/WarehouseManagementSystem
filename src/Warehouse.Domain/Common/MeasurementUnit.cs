@@ -1,7 +1,6 @@
-﻿using Warehouse.Domain.ValueObjects;
-using Warehouse.Shared;
+﻿using Warehouse.Shared;
 
-namespace Warehouse.Domain.Entities;
+namespace Warehouse.Domain.Common;
 
 public sealed class MeasurementUnit : Entity<MeasurementUnit>
 {

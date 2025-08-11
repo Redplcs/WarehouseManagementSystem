@@ -1,4 +1,4 @@
-﻿using Warehouse.Domain.ValueObjects;
+﻿using Warehouse.Domain.Common;
 using Warehouse.Shared;
 
 namespace Warehouse.Domain.Entities;

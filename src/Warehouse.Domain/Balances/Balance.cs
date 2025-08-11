@@ -1,6 +1,8 @@
-﻿using Warehouse.Shared;
+﻿using Warehouse.Domain.Common;
+using Warehouse.Domain.Entities;
+using Warehouse.Shared;
 
-namespace Warehouse.Domain.Entities;
+namespace Warehouse.Domain.Balances;
 
 public sealed class Balance : Entity<Balance>
 {
