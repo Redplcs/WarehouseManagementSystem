@@ -1,8 +1,7 @@
 ﻿using Warehouse.Domain.Common;
-using Warehouse.Domain.OutboundDocuments;
 using Warehouse.Shared;
 
-namespace Warehouse.Domain.Entities;
+namespace Warehouse.Domain.OutboundDocuments;
 
 public sealed class OutboundResource : Entity<OutboundResource>
 {

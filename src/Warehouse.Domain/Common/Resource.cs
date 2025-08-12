@@ -1,7 +1,6 @@
-﻿using Warehouse.Domain.Common;
-using Warehouse.Shared;
+﻿using Warehouse.Shared;
 
-namespace Warehouse.Domain.Entities;
+namespace Warehouse.Domain.Common;
 
 public sealed class Resource : Entity<Resource>
 {

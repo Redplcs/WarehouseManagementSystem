@@ -1,7 +1,6 @@
-﻿using Warehouse.Domain.InboundDocuments;
-using Warehouse.Shared;
+﻿using Warehouse.Shared;
 
-namespace Warehouse.Domain.Entities;
+namespace Warehouse.Domain.InboundDocuments;
 
 public sealed class InboundDocument : Entity<InboundDocument>
 {

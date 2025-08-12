@@ -1,5 +1,4 @@
 ﻿using Warehouse.Domain.Common;
-using Warehouse.Domain.Entities;
 using Warehouse.Shared;
 
 namespace Warehouse.Domain.Balances;
