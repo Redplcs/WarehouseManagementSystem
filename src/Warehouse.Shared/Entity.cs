@@ -3,7 +3,7 @@
 public abstract class Entity<TSelf> : IEquatable<Entity<TSelf>>
     where TSelf : Entity<TSelf>
 {
-    public Id<TSelf> Id { get; init; }
+    public Id<TSelf> Id { get; init; } = Id<TSelf>.New();
 
     public bool Equals(Entity<TSelf>? other)
     {
